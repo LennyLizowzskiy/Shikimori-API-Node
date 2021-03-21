@@ -1,0 +1,29 @@
+{
+  "name": "shikimori-api-node",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for http://shikimori.one/api/doc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git://github.com/LennyLizowzskiy/shikimori-api-node.git",
+  "keywords": [
+    "shikimori",
+    "api",
+    "wrapper",
+    "anime"
+  ],
+  "author": "LennyLizowzskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LennyLizowzskiy/shikimori-api-node/issues"
+  },
+  "homepage": "https://github.com/LennyLizowzskiy/shikimori-api-node#readme",
+  "dependencies": {
+    "needle": "^2.6.0"
+  },
+
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
