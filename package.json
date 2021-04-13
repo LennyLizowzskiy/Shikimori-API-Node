@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git://github.com/LennyLizowzskiy/shikimori-api-node.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LennyLizowzskiy/shikimori-api-node.git"
+  },
   "keywords": [
     "shikimori",
     "api",
@@ -21,9 +24,5 @@
   "homepage": "https://github.com/LennyLizowzskiy/shikimori-api-node#readme",
   "dependencies": {
     "needle": "^2.6.0"
-  },
-
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
