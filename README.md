@@ -18,12 +18,14 @@ npm i shikimori-api-node
 
 ## Usage
 ### Prologue
-1. Every function is promise.
-2. Every 'parameters' variable should be object.
-3. Some parameters for methods are not defined in official API documentation (such as `broadcast`).
+1. Every function is `promise`.
+2. Every 'parameters' variable should be `Object`.
+3. Some parameters for methods are not defined in official API documentation (such as `broadcast`) but I tried to note ones that support them.
 
 ### Authentication
-To get API working you need to login with credentials of your application. Complete first two steps at [shikimori/oauth](https://shikimori.one/oauth).
+If you need methods that require `scopes` then you will need to login with credentials of your application. Note that logging in is optional. API can work without it.
+
+First of all, complete first two steps at [shikimori/oauth](https://shikimori.one/oauth).
 
 **Note that authentication code can be used only once and should be renewed by the user itself.**
 ##### Loggin' in
