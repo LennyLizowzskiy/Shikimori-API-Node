@@ -3,13 +3,13 @@
 # Shikimori Web API wrapper for Node.js
 
 ## Table of contents
-* [Installation](https://github.com/LennyLizowzskiy/Shikimori-API-Node/new/main#installation)
-* [Usage](https://github.com/LennyLizowzskiy/Shikimori-API-Node/new/main#usage)
-  * [Prologue](https://github.com/LennyLizowzskiy/Shikimori-API-Node/new/main#prologue)
-  * [Authentication](https://github.com/LennyLizowzskiy/Shikimori-API-Node/new/main#authentication)
-  * [Requests](https://github.com/LennyLizowzskiy/Shikimori-API-Node/new/main#requests)
-  * [API v1](https://github.com/LennyLizowzskiy/Shikimori-API-Node/new/main#api-v1)
-  * [API v2](https://github.com/LennyLizowzskiy/Shikimori-API-Node/new/main#api-v2)
+* [Installation](https://github.com/LennyLizowzskiy/Shikimori-API-Node#installation)
+* [Usage](https://github.com/LennyLizowzskiy/Shikimori-API-Node#usage)
+  * [Prologue](https://github.com/LennyLizowzskiy/Shikimori-API-Node#prologue)
+  * [Authentication](https://github.com/LennyLizowzskiy/Shikimori-API-Node#authentication)
+  * [Requests](https://github.com/LennyLizowzskiy/Shikimori-API-Node#requests)
+  * [API v1](https://github.com/LennyLizowzskiy/Shikimori-API-Node#api-v1)
+  * [API v2](https://github.com/LennyLizowzskiy/Shikimori-API-Node#api-v2)
 
 ## Installation
 ```npm
