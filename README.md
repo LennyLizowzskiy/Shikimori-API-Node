@@ -34,11 +34,11 @@ const Shikimori = require('shikimori-api-node');
 const shiki = new Shikimori();
 
 shiki.auth.login({
-  clientid: 'xxxxxxxxxxxxxx',
-  clientsecret: 'xxxxxxxxxxxxxx',
-  authcode: 'xxxxxxxxxxxxxx',
-  useragent: 'xxxxxx', // only name of your app
-  redirecturi: 'xxxxxxxxx' // optional: 'urn:ietf:wg:oauth:2.0:oob' by default
+  clientid: process.env.CLIENT_ID,
+  clientsecret: process.env.CLIENT_SECRET,
+  authcode: process.env.AUTHENTICATION_CODE,
+  useragent: process.env.USERAGENT, // only name of your app
+  redirecturi: process.env.REDIRECT_URI // optional: 'urn:ietf:wg:oauth:2.0:oob' by default
 });
 ```
 Authenticates you and `resolves` as credentials object with all info that you may need.

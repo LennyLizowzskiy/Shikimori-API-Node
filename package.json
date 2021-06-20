@@ -1,28 +1,54 @@
 {
-  "name": "shikimori-api-node",
-  "version": "1.0.2",
-  "description": "Node.js wrapper for http://shikimori.one/api/doc",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "shikimori-api-node@^1.0.0",
+  "_id": "shikimori-api-node@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-tcj2BrxOXFjGDu7P59t2a7Tm24we5HzZHkI9C1Ci3Dcb4ol8IKXS7wwI7yhuhsPF7H9TASsuH34NblMECZXrHQ==",
+  "_location": "/shikimori-api-node",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "shikimori-api-node@^1.0.0",
+    "name": "shikimori-api-node",
+    "escapedName": "shikimori-api-node",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LennyLizowzskiy/shikimori-api-node.git"
-  },
-  "keywords": [
-    "shikimori",
-    "api",
-    "wrapper",
-    "anime"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "LennyLizowzskiy",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/shikimori-api-node/-/shikimori-api-node-1.0.3.tgz",
+  "_shasum": "7002504cd77866e277cfedfc7e868edd5f10fc55",
+  "_spec": "shikimori-api-node@^1.0.0",
+  "_where": "D:\\NODEJS\\telegrambot",
+  "author": {
+    "name": "LennyLizowzskiy"
+  },
   "bugs": {
     "url": "https://github.com/LennyLizowzskiy/shikimori-api-node/issues"
   },
-  "homepage": "https://github.com/LennyLizowzskiy/shikimori-api-node#readme",
+  "bundleDependencies": false,
   "dependencies": {
     "needle": "^2.6.0"
-  }
+  },
+  "deprecated": false,
+  "description": "Node.js wrapper for http://shikimori.one/api/doc",
+  "homepage": "https://github.com/LennyLizowzskiy/shikimori-api-node#readme",
+  "keywords": [
+    "shikimori",
+    "anime"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "shikimori-api-node",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LennyLizowzskiy/shikimori-api-node.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
 }
